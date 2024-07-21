@@ -1,19 +1,5 @@
----
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/infaqbe1/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp about.html $DEPLOYPATH
-    - /bin/cp become-volunteer.html $DEPLOYPATH
-    - /bin/cp causes-details.html $DEPLOYPATH
-    - /bin/cp causes-infaq.html $DEPLOYPATH
-    - /bin/cp causes.html $DEPLOYPATH
-    - /bin/cp contact.html $DEPLOYPATH
-    - /bin/cp event-details.html $DEPLOYPATH
-    - /bin/cp events.html $DEPLOYPATH
-    - /bin/cp gallery.html $DEPLOYPATH
-    - /bin/cp metode_pembayaran.html $DEPLOYPATH
-    - /bin/cp news-details.html $DEPLOYPATH
-    - /bin/cp news.html $DEPLOYPATH
-    - /bin/cp volunteers.html $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
+    - export DEPLOY_PATH=/home/user/public_html
+    - /bin/cp -rf * $DEPLOY_PATH/
+    - /bin/cp -rf .[^.]* $DEPLOY_PATH/
