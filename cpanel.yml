@@ -1,5 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOY_PATH=/home/user/public_html
-    - /bin/cp -rf * $DEPLOY_PATH/
+    - export DEPLOY_PATH=/home/pasp5526/public-html
+     - /bin/cp -rf * $DEPLOY_PATH/
     - /bin/cp -rf .[^.]* $DEPLOY_PATH/
+    
