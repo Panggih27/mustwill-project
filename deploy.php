@@ -1,6 +1,6 @@
 <?php
 // Secret yang sama dengan yang diatur di GitHub webhook
-$secret = 'your_secret';
+$secret = 'mustwill';
 
 // Ambil header yang dikirimkan oleh GitHub
 $headers = getallheaders();
