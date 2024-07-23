@@ -1,6 +1,6 @@
 <?php
 
-define('BASEURL', 'http://localhost/mustwill/public');
+define('BASEURL', 'http://pasangacmurah.com/public');
 require_once '../app/config/Config.php';
 
 // DB
