@@ -1,4 +1,5 @@
 deployment:
   tasks:
     - export DEPLOY_PATH=/home/pasp5526/public_html/git
-    - /bin/cp -r * $DEPLOYPATH
+    - /bin/cp -R app * $DEPLOYPATH
+    - /bin/cp -R public * $DEPLOYPATH
