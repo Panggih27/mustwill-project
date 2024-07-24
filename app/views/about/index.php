@@ -6,8 +6,8 @@
 
       <!-- Breadcrumb -->
       <ol class="breadcrumb">
-        <li class="active">About</li>
-        <li><a href="<?= BASEURL; ?>/about/page">Contact Us</a></li>
+        <li class="active">Home</li>
+        <li><a href="#">About</a></li>
       </ol>
     </div>
   </div>
@@ -29,37 +29,37 @@
       <!-- Heading -->
       <div class="heading-block margin-bottom-20">
         <h4>- Best Solution Home Appliance - </h4>
-        <h2>Awesome Multiconcept Theme </h2>
+        <h2>Solusi Terbaik AC Rumah Anda </h2>
       </div>
       <div class="intro-small col-md-10 center-auto">
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        <p>Temukan kenyamanan sempurna di rumah Anda dengan solusi AC terbaik kami. Nikmati udara sejuk dan segar setiap saat dengan teknologi canggih dan layanan profesional yang selalu siap membantu Anda.</p>
       </div>
       <div class="row">
 
         <!-- Our Mission -->
         <div class="col-sm-4">
-          <article> <i class="lnr lnr-rocket animate fadeInLeft" data-wow-delay="0.4s"></i>
-            <h3>Best Perfomance</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Typesetting and dummy text of the printing and typesetting industry.</p>
-            <a href="#.">Read More</a>
+          <article> <i class="lnr lnr-cart animate fadeInLeft" data-wow-delay="0.4s"></i>
+            <h3>Sales</h3>
+            <p>Tingkatkan efisiensi bisnis Anda dengan produk unggulan kami yang telah terbukti meningkatkan penjualan secara signifikan.</p>
+            <!-- <a href="#.">Read More</a> -->
           </article>
         </div>
 
         <!-- Our Mission -->
         <div class="col-sm-4">
-          <article> <i class="lnr lnr-laptop-phone animate fadeInLeft" data-wow-delay="0.4s"></i>
-            <h3>Mobile Friendly</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Typesetting and dummy text of the printing and typesetting industry.</p>
-            <a href="#.">Read More</a>
+          <article> <i class="lnr lnr-cog animate fadeInLeft" data-wow-delay="0.4s"></i>
+            <h3>Service</h3>
+            <p>Dapatkan layanan terbaik dari tim profesional kami yang siap membantu Anda kapan saja untuk memastikan kepuasan maksimal.</p>
+            <!--<a href="#.">Read More</a>-->
           </article>
         </div>
 
         <!-- Our Mission -->
         <div class="col-sm-4">
-          <article> <i class="lnr lnr-sun animate fadeInLeft" data-wow-delay="0.4s"></i>
-            <h3>Clean Design</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Typesetting and dummy text of the printing and typesetting industry.</p>
-            <a href="#.">Read More</a>
+          <article> <i class="lnr lnr-wrench animate fadeInLeft" data-wow-delay="0.4s"></i>
+            <h3>Sparepart</h3>
+            <p>Jangan biarkan peralatan Anda berhenti beroperasi! Kami menyediakan suku cadang berkualitas tinggi untuk memastikan kelancaran operasional bisnis Anda.</p>
+            <!-- <a href="#.">Read More</a> -->
           </article>
         </div>
       </div>
@@ -67,54 +67,54 @@
   </section>
 
   <!-- SERVICES -->
-  <section class="services serv-info">
-    <ul class="row no-margin">
-      <!-- Digital Art -->
-      <li class="col-md-4">
+  <!-- <section class="services serv-info">
+    <ul class="row no-margin"> -->
+  <!-- Digital Art -->
+  <!-- <li class="col-md-4">
         <div class="ser-inn">
           <h4>Our Philosopgy</h4>
           <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it?</p>
           <a href="#." class="btn btn-dark btn-small">DISCOVER</a>
         </div>
-      </li>
+      </li> -->
 
-      <!-- Backend Solutions -->
-      <li class="col-md-4">
+  <!-- Backend Solutions -->
+  <!-- <li class="col-md-4">
         <div class="ser-inn">
           <h4>Our Value</h4>
           <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it?</p>
           <a href="#." class="btn btn-dark btn-small">DISCOVER</a>
         </div>
-      </li>
+      </li> -->
 
-      <!-- Industrial design -->
-      <li class="col-md-4">
+  <!-- Industrial design -->
+  <!-- <li class="col-md-4">
         <div class="ser-inn">
           <h4>Our Business</h4>
           <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it?</p>
           <a href="#." class="btn btn-dark btn-small">DISCOVER</a>
         </div>
-      </li>
+      </li> -->
 
-      <!-- Industrial design -->
-      <li class="col-md-4">
+  <!-- Industrial design -->
+  <!-- <li class="col-md-4">
         <div class="ser-inn">
           <h4>Our Business</h4>
           <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it?</p>
           <a href="#." class="btn btn-dark btn-small">DISCOVER</a>
         </div>
-      </li>
-      <!-- Digital Art -->
-      <li class="col-md-4">
+      </li> -->
+  <!-- Digital Art -->
+  <!-- <li class="col-md-4">
         <div class="ser-inn">
           <h4>Our Philosopgy</h4>
           <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it?</p>
           <a href="#." class="btn btn-dark btn-small">DISCOVER</a>
         </div>
-      </li>
+      </li> -->
 
-      <!-- Backend Solutions -->
-      <li class="col-md-4">
+  <!-- Backend Solutions -->
+  <!-- <li class="col-md-4">
         <div class="ser-inn">
           <h4>Our Value</h4>
           <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it?</p>
@@ -122,39 +122,39 @@
         </div>
       </li>
     </ul>
-  </section>
+  </section> -->
 
   <!-- Counter -->
-  <div class="counters nolist-style white-bg">
-    <ul class="row">
+  <!-- <div class="counters nolist-style white-bg">
+    <ul class="row"> -->
 
-      <!-- PROPOSALS SENT -->
-      <!-- <li class="col-sm-3"> <span class="counter">2087</span> <span>k</span>
+  <!-- PROPOSALS SENT -->
+  <!-- <li class="col-sm-3"> <span class="counter">2087</span> <span>k</span>
         <p>Lines Of codes</p>
       </li> -->
 
-      <!-- PROPOSALS SENT -->
-      <!-- <li class="col-sm-3"> <span class="counter">750</span>
+  <!-- PROPOSALS SENT -->
+  <!-- <li class="col-sm-3"> <span class="counter">750</span>
         <p>Cups of Coffee</p>
       </li> -->
 
-      <!-- AWARDS WON -->
-      <!-- <li class="col-sm-3"> <span class="counter">10</span>
+  <!-- AWARDS WON -->
+  <!-- <li class="col-sm-3"> <span class="counter">10</span>
         <p>Awards Won</p>
       </li>
       <li class="col-sm-3"> <span class="counter">550</span>
         <p>Teamplates</p>
       </li>
     </ul> -->
-  </div>
+  <!-- </div> -->
 
   <!-- Tesm Text -->
   <section class="team-testi" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="t-t-in">
-        <h3>“
-          Webicode team have lot of skills and passion. Awesome Designer Team. These guys are excellent. The Code quality and commenting make it easier to work with them. we recommend to work with them. ”</h3>
-        <h6>- Webicode -</h6>
+        <h2>“
+          Produktivitas adalah hasil dari ketekunan dan disiplin. Bangun kebiasaan baik dan lihatlah hasilnya. ”</h2>
+        <!-- <h6>- Webicode -</h6>-->
       </div>
     </div>
   </section>
@@ -165,11 +165,11 @@
 
       <!-- Heading -->
       <div class="heading-block margin-bottom-30">
-        <h3>our team Members</h3>
+        <h3>Jagoan Kami</h3>
         <hr>
       </div>
       <div class="intro-small col-md-8 center-auto">
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout..</p>
+        <p>Teknis AC terbaik kami yang menawarkan kenyamanan maksimal di rumah Anda dengan layanan profesional yang siap membantu kapan saja.</p>
       </div>
 
       <!-- Team  -->
