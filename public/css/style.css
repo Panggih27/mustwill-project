@@ -2446,7 +2446,8 @@ header .user-basket .cart-num {
 ========================================================*/
 .team-testi {
 	padding: 150px 0;
-	background: url(../images/mwl-office.png) no-repeat;
+	background: url(<?=BASEURL;
+		?>/images/mwl-office.png) no-repeat;
 	background-size: cover;
 }
 .team-testi .t-t-in h4 {
@@ -2477,7 +2478,8 @@ header .user-basket .cart-num {
 ========================================================*/
 .lookin-pro {
 	padding: 150px 0;
-	background: url(../images/mwl-office.png) no-repeat;
+	background: url(<?=BASEURL;
+		?>/images/mwl-office.png) no-repeat;
 	background-size: cover;
 }
 .lookin-pro .t-t-in {

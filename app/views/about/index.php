@@ -169,7 +169,7 @@
         <hr>
       </div>
       <div class="intro-small col-md-8 center-auto">
-        <p>Teknis AC terbaik kami yang menawarkan kenyamanan maksimal di rumah Anda dengan layanan profesional yang siap membantu kapan saja.</p>
+        <p>Teknisi AC terbaik kami memberikan kenyamanan maksimal di rumah Anda dengan layanan profesional yang siap membantu kapan saja.</p>
       </div>
 
       <!-- Team  -->
@@ -180,19 +180,13 @@
           <div class="col-sm-4">
             <article>
               <!-- Team Img -->
-              <div class="team-img animate"> <img class="img-responsive" src="images/team-img-1.jpg" alt="">
+              <div class="team-img animate"> <img class="img-responsive" src="<?= BASEURL; ?>/images/img-dummy.png" alt="">
 
-                <!-- Social -->
-                <div class="team-hover">
-                  <div class="position-center-center"> <a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-behance"></i></a> </div>
+                <!-- Team Name -->
+                <div class="team-name">
+                  <h6>Pakde Jokowi</h6>
+                  <p>Head Technician</p>
                 </div>
-              </div>
-
-              <!-- Team Name -->
-              <div class="team-name">
-                <h6>M_Adnan Arif</h6>
-                <p>CEO Founder</p>
-              </div>
             </article>
           </div>
 
@@ -200,22 +194,13 @@
           <div class="col-sm-4">
             <article>
               <!-- Team Img -->
-              <div class="team-img animate"> <img class="img-responsive" src="images/team-img-2.jpg" alt="">
+              <div class="team-img animate"> <img class="img-responsive" src="<?= BASEURL; ?>/images/img-dummy.png" alt="">
 
-                <!-- Social -->
-                <div class="team-hover">
-                  <div class="position-center-center">
-                    <p>It is a long established fact that a reader will be distracted</p>
-                    <a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-behance"></i></a>
-                  </div>
+                <!-- Team Name -->
+                <div class="team-name">
+                  <h6>Bobby Nasution</h6>
+                  <p>Technician</p>
                 </div>
-              </div>
-
-              <!-- Team Name -->
-              <div class="team-name">
-                <h6>Adnan Arif</h6>
-                <p>Web Designer</p>
-              </div>
             </article>
           </div>
 
@@ -223,19 +208,13 @@
           <div class="col-sm-4">
             <article>
               <!-- Team Img -->
-              <div class="team-img animate"> <img class="img-responsive" src="images/team-img-3.jpg" alt="">
+              <div class="team-img animate"> <img class="img-responsive" src="<?= BASEURL; ?>/images/img-dummy.png" alt="">
 
-                <!-- Social -->
-                <div class="team-hover">
-                  <div class="position-center-center"> <a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-behance"></i></a> </div>
+                <!-- Team Name -->
+                <div class="team-name">
+                  <h6>Ali Jumuah</h6>
+                  <p>Technician</p>
                 </div>
-              </div>
-
-              <!-- Team Name -->
-              <div class="team-name">
-                <h6>Ali Jaun</h6>
-                <p>Web Developer</p>
-              </div>
             </article>
           </div>
         </div>
@@ -251,11 +230,11 @@
 
       <!-- Heading -->
       <div class="heading-block margin-bottom-30">
-        <h3>our Best Partherns</h3>
+        <h3>Beberapa Mitra Kami</h3>
         <hr>
       </div>
       <div class="intro-small col-md-8 center-auto">
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout..</p>
+        <p>Kolaborasi adalah kekuatan. Bersama, kita bisa menciptakan sesuatu yang luar biasa.</p>
       </div>
       <ul class="nolist-style">
         <li><img src="<?= BASEURL; ?>/images/logo-beko.png" alt=""></li>

@@ -14,6 +14,9 @@
 
     <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
     <link rel="stylesheet" type="text/css" href="<?= BASEURL ?>/rs-plugin/css/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="<?= BASEURL; ?>/plugins/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="<?= BASEURL; ?>/plugins/assets/css/icons.min.css" />
+    <link rel="stylesheet" type="text/css" href="<?= BASEURL; ?>/plugins/assets/css/theme.min.css" />
 
     <!-- StyleSheets -->
     <link rel="stylesheet" href="<?= BASEURL ?>/css/ionicons.min.css">
@@ -22,6 +25,7 @@
     <link rel="stylesheet" href="<?= BASEURL ?>/css/main.css">
     <link rel="stylesheet" href="<?= BASEURL ?>/css/style.css">
     <link rel="stylesheet" href="<?= BASEURL ?>/css/responsive.css">
+
 
     <!-- Fonts Online -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900|Raleway:200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -46,19 +50,6 @@
         </div>
     </div>
 
-    <!-- Page Wrapper -->
-    <!--   <div id="wrap">
-        <nav id="cd-lateral-nav">
-            <div class="logo"> <a href="index.html"><img src="images/logo.png" alt=""></a> </div>
-            <ul class="cd-navigation navbar ownmenu">
-                <li> <a href="index.html">Home </a></li>
-            <div class="rights-info">
-                <div class="social-icons"> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-twitter"></i></a> <a href="#."><i class="fa fa-instagram"></i></a> </div>
-                <p>2024 © Laptopia<br>
-                    All rights reserved</p>
-            </div>
-        </nav> -->
-
     <!-- Main Layout -->
     <!--   <main class="cd-main-content"> -->
     <!-- Header -->
@@ -82,7 +73,7 @@
                             <!-- NAV RIGHT -->
                             <div class="nav-right navbar-right">
                                 <ul>
-                                    <li class="dropdown user-basket"> <span class="cart-num">1</span> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><i class="fa fa-shopping-cart"></i> </a>
+                                    <li class="dropdown user-basket"> <span class="cart-num">1</span> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> </a>
                                         <ul class="dropdown-menu">
                                             <li>
                                                 <div class="media-left">
@@ -117,9 +108,37 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li><a href="#."><i class="fa fa-navicon"></i></a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a><img class="rounded-circle header-profile-user" src="BASEURL ?>/images/img-dummy.png" alt="Header Avatar"><span class="d-none d-sm-inline-block ml-1">Henry</span><i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                                                    <span>Inbox</span>
+                                                    <span>
+                                                        <span class="badge badge-pill badge-success">3</span>
+                                                    </span>
+                                                </div>
+                                                <div class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                                                    <span>Profile</span>
+                                                    <span>
+                                                        <span class="badge badge-pill badge-info">1</span>
+                                                    </span>
+                                                </div>
+                                                <div class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                                                    Settings
+                                                </div>
+                                                <div class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                                                    <span>Lock Account</span>
+                                                </div>
+                                                <div class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                                                    <span>Log Out</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </div>

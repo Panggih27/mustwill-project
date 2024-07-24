@@ -80,11 +80,21 @@
 <script src="<?= BASEURL; ?>/js/vendors/own-menu.js"></script>
 <script src="<?= BASEURL; ?>/js/vendors/jquery.sticky.js"></script>
 <script src="<?= BASEURL; ?>/js/vendors/owl.carousel.min.js"></script>
+<script src="<?= BASEURL; ?>/plugins/assets/js/jquery.min.js"></script>
+<script src="<?= BASEURL; ?>/plugins/assets/js/bootstrap.bundle.min.js"></script>
+<script src="<?= BASEURL; ?>/plugins/assets/js/metismenu.min.js"></script>
+<script src="<?= BASEURL; ?>/plugins/assets/js/waves.js"></script>
+<script src="<?= BASEURL; ?>/plugins/assets/js/simplebar.min.js"></script>
 
 <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
 <script type="text/javascript" src="<?= BASEURL; ?>/rs-plugin/js/jquery.tp.t.min.js"></script>
 <script type="text/javascript" src="<?= BASEURL; ?>/rs-plugin/js/jquery.tp.min.js"></script>
 <script src="<?= BASEURL; ?>/js/main.js"></script>
+<!-- Custom Js -->
+<script src="<?= BASEURL; ?>/plugins/assets/pages/dashboard-demo.js"></script>
+
+<!-- App js -->
+<script src="<?= BASEURL; ?>/plugins/assets/js/theme.js"></script>
 <script>
     jQuery(document).ready(function($) {
 
